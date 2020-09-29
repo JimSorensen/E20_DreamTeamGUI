@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid>
+
+            <TextBlock Margin="14, 10, 0, 0" HorizontalAlignment="Left"  Name="textBlock1" VerticalAlignment="Top"  FontWeight="Bold">Fornavn</TextBlock>
+            <TextBlock Margin="195, 10, 0, 0" HorizontalAlignment="Left"  Name="textBlock2" VerticalAlignment="Top" FontWeight="Bold">Efternavn</TextBlock>
+            <TextBlock Margin="370, 10, 0, 0" HorizontalAlignment="Left"  Name="textBlock4" VerticalAlignment="Top" FontWeight="Bold" Grid.ColumnSpan="2" >Auid</TextBlock>
+            <ListBox Margin="10, 37, 10, 10" Name="lbxDeltagere" Loaded="LoadFiler"/>
+        </Grid>
     </Grid>
 </Window>
