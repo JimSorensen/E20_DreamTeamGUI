@@ -52,18 +52,18 @@ namespace HullSpeed
             //MessageBox.Show(x);
         }
 
-        private void stackPanelMain_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.Key == Key.L)
-            {
-                //MessageBox.Show("KeyDown L");
-                ZoomIn();
-            }
-            else if (e.Key == Key.S)
-            {
-                //MessageBox.Show("KeyDown: S");
-                ZoomOut();
-            }
-        }
+        //private void stackPanelMain_KeyDown(object sender, KeyEventArgs e)
+        //{
+        //    if (e.Key == Key.L)
+        //    {
+        //        //MessageBox.Show("KeyDown L");
+        //        ZoomIn();
+        //    }
+        //    else if (e.Key == Key.S)
+        //    {
+        //        //MessageBox.Show("KeyDown: S");
+        //        ZoomOut();
+        //    }
+        //}
     }
 }
