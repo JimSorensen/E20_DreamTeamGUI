@@ -23,6 +23,22 @@ namespace Exercise5_BabyNames
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        
+    private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            string[] lines = System.IO.File.ReadAllLines(
+                AppDomain.CurrentDomain.BaseDirectory + "babynames.txt");
+            List<BabyName> names = new List<BabyName>();
+
+            for (int i = 0; i < 10; i++)
+            {
+                names.Add(new BabyName(lines[i]));
+
+                lstDecadeTopNames.Items.Add(lines[i]);
+            }
         }
     }
 }

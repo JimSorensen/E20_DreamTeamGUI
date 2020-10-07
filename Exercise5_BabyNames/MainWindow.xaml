@@ -5,8 +5,40 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Exercise5_BabyNames"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="300" Width="300" >
+    <StackPanel>
+        <WrapPanel Background="Gray">
+
+        </WrapPanel>
+        <Grid Loaded="MainWindow_Loaded">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="auto"/>
+                
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+
+            </Grid.RowDefinitions>
+            <TextBlock Text="Decades" Grid.Column="0" Grid.Row="0" Background="Aqua"/>
+            <ListBox Name="lstYear" 
+                     Grid.Column="0" 
+                     Grid.Row="1" 
+                     Background="Red" 
+                     Height="70"/>
+
+            <TextBlock Text="Top 10" Grid.Column="1" Grid.Row="0"/>
+            <ListBox Name="lstDecadeTopNames" Grid.Column="1" Grid.Row="1"/>
+
+
+        </Grid>
+
         
-    </Grid>
+           
+        
+    </StackPanel>
+
+
 </Window>

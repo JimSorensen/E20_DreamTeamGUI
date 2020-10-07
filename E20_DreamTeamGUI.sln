@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise3_og_4_HullSpeed", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise5_BabyNames", "Exercise5_BabyNames\Exercise5_BabyNames.csproj", "{0C757A54-F351-466D-9B65-C1AEA9ECC730}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BCDD263C-8DBE-48C7-BE7B-EE8D2599162C}"
+	ProjectSection(SolutionItems) = preProject
+		Exercise5_BabyNames\bin\Debug\babynames.txt = Exercise5_BabyNames\bin\Debug\babynames.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
